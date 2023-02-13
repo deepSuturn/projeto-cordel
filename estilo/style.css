@@ -31,12 +31,12 @@ section{
 }
 
 
-p{  
+section > p{  
     display: inline-block;
     padding: 15px;
 }
 
-#pular{
+.pular{
     display: block;
 }
 
@@ -66,5 +66,18 @@ a{
     text-decoration: none;
 }
 
+footer{
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 5px;
+}
+
+footer > p{
+    margin: 0px;
+    text-align: center;
+    font-size: 0.9vw;
+    font-family: 'Passion One', cursive;
+}
 
 
